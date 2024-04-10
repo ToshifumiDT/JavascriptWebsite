@@ -1,0 +1,101 @@
+*{
+    padding: 0%;
+    margin:0%
+}
+/*header*/
+header{
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;    
+}
+header h1{
+    font-size: 60px;
+}
+/*button*/
+button {
+    display: block;
+    margin-left: auto;
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    color: black;
+    background-color: burlywood;
+    border: none;
+    border-radius: 30px;
+}
+/*main*/
+main figure{
+    background-color: antiquewhite;
+}
+
+main .image figure img{
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+main .about1{
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;
+}
+main .about2{
+    background-color: antiquewhite;
+    padding: 30px;
+    text-align: center;
+}
+main .about1 .container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+main .about2 .container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+main .about1 h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+main .about2 h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+  }
+/*footer*/
+footer{
+    background-color: burlywood;
+    height: 350px;
+}
+footer h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+footer table{
+    margin: 0 auto;
+}
+footer table td{
+    padding:10px 20px;
+}
+footer h3{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+footer button {
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    color: black;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 30px;
+}
+footer .copyright{
+    margin-bottom: auto;
+}
