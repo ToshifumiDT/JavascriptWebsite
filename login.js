@@ -1,3 +1,4 @@
+console.log("Hello, Console!");
 
 document.getElementById("loginForm").addEventListener("submit", function(event) {
     event.preventDefault();

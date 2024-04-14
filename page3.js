@@ -1,3 +1,5 @@
+console.log("Hello, Console!");
+
 function toggleText() {
     var foldedText = document.getElementById("foldedText");
     var toggleButton = document.getElementById("toggleButton");
