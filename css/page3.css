@@ -6,11 +6,11 @@
 /*boby*/
 
 body{
-    background: linear-gradient(rgba(255, 200, 179, 0.856),rgb(255, 94, 0));
+    background-color: rgb(37, 37, 37);
 }
 
 header{
-    background-color: rgba(105, 105, 105, 0.11);
+    background-color: rgba(196, 196, 196, 0.568);
     height: 80px;
     padding: 30px;
     text-align: center;    
@@ -29,7 +29,6 @@ main{
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-
 .folded-text {
     overflow: hidden;
     max-height: 100px; 
@@ -42,9 +41,4 @@ main{
     cursor: pointer;
     color: blue;
     text-decoration: underline;
-}
-
-
-footer{
-    height: 100px;
 }
