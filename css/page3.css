@@ -3,3 +3,48 @@
     margin:0%
 }
 
+/*boby*/
+
+body{
+    background: linear-gradient(rgba(255, 200, 179, 0.856),rgb(255, 94, 0));
+}
+
+header{
+    background-color: rgba(105, 105, 105, 0.11);
+    height: 80px;
+    padding: 30px;
+    text-align: center;    
+}
+
+h1{
+    font-size: 60px;
+}
+
+main{
+    width: 70%;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.folded-text {
+    overflow: hidden;
+    max-height: 100px; 
+    transition: max-height 0.3s ease;
+}
+.unfolded-text {
+    max-height: none !important;
+}
+.toggle-button {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+footer{
+    height: 100px;
+}
