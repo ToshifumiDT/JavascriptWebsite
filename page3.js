@@ -1,8 +1,8 @@
 console.log("Hello, Console!");
 
 function toggleText() {
-    var foldedText = document.getElementById("foldedText");
-    var toggleButton = document.getElementById("toggleButton");
+  const foldedText = document.getElementById("foldedText");
+  const toggleButton = document.getElementById("toggleButton");
     
     if (foldedText.classList.contains("folded-text")) {
       foldedText.classList.remove("folded-text");
